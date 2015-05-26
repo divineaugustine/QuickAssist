@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{9576bafc-e9cd-4611-a661-c16a0ed62ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{b08c9455-4add-4761-8187-5762764b8423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{3e0694c8-18df-4aea-a828-f9b962fb3001}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\DevAssistCore.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DirectoryIteratorImpl.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Resource.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\stdafx.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\targetver.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DirectoryInfoImpl.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FileInfoImpl.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FileIteratorImpl.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FileRepository.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FileSerialize.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Interface\Core\ConfigI.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Interface\Core\DataStructs.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Interface\Core\Repository.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Interface\Core\DevAssistFactory.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Interface\Core\Defs.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FileFactory.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ThreadSearch.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SettingsReader.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ConfigImpl.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DevAssistCore.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="DevAssistCore.def">
+      <Filter>Src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DevAssistCore.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\CoreIFs.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DevAssistCore.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectoryIteratorImpl.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\stdafx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectoryInfoImpl.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileInfoImpl.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileIteratorImpl.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileRepository.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileSerialize.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DevAssistFactory.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileFactory.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ThreadSearch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConfigI.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SettingsReader.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConfigImpl.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

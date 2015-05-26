@@ -1,0 +1,36 @@
+// DevAssistIF.idl : IDL source for DevAssistIF
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (DevAssistIF.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(A4FA98B5-1571-4D6C-911E-DC60FCAF1A2C),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IDevAssistCOM : IDispatch{
+	[id(1)] HRESULT ShowSettingsDlg([out] LONG* lStatus_o);
+	[id(2)] HRESULT GetFilePath([in] BSTR pFileName, [out] BSTR* lFilePath_o, [out] LONG* lStatus_o);
+	[id(3)] HRESULT ToggleFile(BSTR strCurrentFile, [out] BSTR* Path_o, [out] LONG* lStatus_o);
+};
+[
+	uuid(299AE785-AD0A-4B32-B1F3-E72BFA6FB21B),
+	version(1.0)	
+]
+library DevAssistIFLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(DABCA1B1-3C03-48B3-B22C-C2ED3A5876CA)		
+	]
+	coclass DevAssistCOM
+	{
+		[default] interface IDevAssistCOM;
+	};
+};
