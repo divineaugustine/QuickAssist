@@ -3,28 +3,31 @@ An addin to easily search and open files for visual studio and notepad ++
 
 # Screen shots
 Loaded in notepad++
-![ScreenShot](Docs/screenshots/NPP_GUI.png)
+
+<div style="img-align:center"><img src ="Docs/screenshots/NPP_1.png" /></div>
 
 Loaded in vs 2012
 
-![ScreenShot](Docs/screenshots/VS_GUI.png)
+<div style="img-align:center"><img src ="Docs/screenshots/VS_GUI.png" /></div>
 
-# How to use
+# Features
 1. Toggle cpp/header
-2. Search file
-  a. without selecting any text
-![ScreenShot](Docs/screenshots/NPP_BEGIN.png)
-![ScreenShot](Docs/screenshots/NPP_search.png)
-![ScreenShot](Docs/screenshots/search data.png)
+<div style="img-align:center"><img src ="Docs/screenshots/Toggle.gif" /></div>
 
-  b. with selecting a text
-  
-  if there is a file with the selected text, it will be opened. otherwise a search and its result will be shown.
+2. Search file
+  a. Without selecting any text
+<div style="img-align:center"><img src ="Docs/screenshots/FileOpen.gif" /></div>
+  b. With selecting a text
+<div style="img-align:center"><img src ="Docs/screenshots/select_open.gif" /></div>
+
+If there is a file with the selected text, it will be opened. otherwise a search and its result will be shown.
+
 ![ScreenShot](Docs/screenshots/NPP_selected.png)
 
 3. Settings
 
 ![ScreenShot](Docs/screenshots/settings.png)
+
 4. Explorer context menu
 
-![ScreenShot](Docs/screenshots/shellmenu.png) 
+<div style="img-align:center"><img src ="Docs/screenshots/NPP_CONTEXT_11.gif" /></div>
