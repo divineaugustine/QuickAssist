@@ -15,6 +15,7 @@ Loaded in vs 2012
 <div style="img-align:center"><img src ="Docs/screenshots/Toggle.gif" /></div>
 
 2. Search file
+
   a. Without selecting any text
 <div style="img-align:center"><img src ="Docs/screenshots/FileOpen.gif" /></div>
   b. With selecting a text
@@ -24,10 +25,7 @@ If there is a file with the selected text, it will be opened. otherwise a search
 
 ![ScreenShot](Docs/screenshots/NPP_selected.png)
 
-3. Settings
 
-![ScreenShot](Docs/screenshots/settings.png)
+3. Explorer context menu
 
-4. Explorer context menu
-
-<div style="img-align:center"><img src ="Docs/screenshots/NPP_CONTEXT_11.gif" /></div>
+<div style="img-align:center"><img src ="Docs/screenshots/NPP_CONTEXT_11.png" /></div>
