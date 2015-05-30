@@ -17,8 +17,11 @@ Below are the requirements i was looking for in the tool.
 3. Index should be reusable in another machine
 4. Indexing should work with a relative path. Useful when working with multiple clearcase views. So most of the time we can live with the same index unless a file addition/removal has been made. Or in scenarios where the code will be stored in a pendrive.
 
-#Components and design#
+#Components#
+<div style="img-align:center"><img src ="Docs/screenshots/Components.png" /></div>
+
 #How to configure#
+ToDo
 
 # Features #
 
