@@ -5,7 +5,6 @@ cpp,hpp,h,inl,icc,cs,xaml
 data,rel,debug,config,document,nls,resources,lint,privateinterfacelinks,del,bin,release,test_data,test_conf,res,doc,tools,translations
 !comment
 [Paths]
-!comment
-Newcor\Andromeda
-!comment
-AX_Singapore_Sensis\Nebula
+!comment add if any specific sub folders are there like SubSystem1\sub2
+!SubSystem1\sub2
+!SubSystem2\sub3
