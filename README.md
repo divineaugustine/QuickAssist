@@ -32,4 +32,4 @@ Read [Docs/Features.md](Docs/Features.md) for more details and screenshots
 Read [Docs/SettingUp.md](Docs/SettingUp.md) for more details and screenshots
 
 #Components#
-<div style="img-align:center"><img src ="Docs/screenshots/Components.png" /></div>
+Read [Docs/Design.md](Docs/Design.md) for more details and screenshots
