@@ -1,10 +1,10 @@
-!comment
+!this is a comment
 [Extensions]
 cpp,hpp,h,inl,icc,cs,xaml
 [IgnoreFolders]
 data,rel,debug,config,document,nls,resources,lint,privateinterfacelinks,del,bin,release,test_data,test_conf,res,doc,tools,translations
-!comment
+!this is a comment
 [Paths]
-!comment add if any specific sub folders are there like SubSystem1\sub2
+!add if any specific sub folders are there like below
 !SubSystem1\sub2
 !SubSystem2\sub_test\sub4
