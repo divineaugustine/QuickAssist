@@ -7,4 +7,4 @@ data,rel,debug,config,document,nls,resources,lint,privateinterfacelinks,del,bin,
 [Paths]
 !comment add if any specific sub folders are there like SubSystem1\sub2
 !SubSystem1\sub2
-!SubSystem2\sub3
+!SubSystem2\sub_test\sub4

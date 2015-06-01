@@ -400,6 +400,7 @@
 			}
 		}
 		finder.Close();
+		return false;
 	}
 
 

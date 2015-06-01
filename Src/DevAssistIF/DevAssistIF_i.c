@@ -6,7 +6,7 @@
 
 
  /* File created by MIDL compiler version 8.00.0595 */
-/* at Fri May 22 12:54:09 2015
+/* at Mon Jun 01 15:04:45 2015
  */
 /* Compiler settings for DevAssistIF.idl:
     Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 8.00.0595 
