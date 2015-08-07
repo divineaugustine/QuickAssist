@@ -1,5 +1,5 @@
 # QuickAssist #
-An addin to easily search and open files for visual studio and notepad ++
+A Visual Studio and  Notepad++ Addin to fast search and open files in large code bases. It works based on a custom portable indexing. It supports file toggle and shell context menu also
 
 ## Screen shots ##
 Loaded in notepad++
